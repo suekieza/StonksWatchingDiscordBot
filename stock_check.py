@@ -7,7 +7,7 @@ def get_ticker(ticker=None):
 
 def get_current_price(get_ticker):
     price = si.get_live_price(get_ticker)
-    print(price)
+    return price
 
 
 
