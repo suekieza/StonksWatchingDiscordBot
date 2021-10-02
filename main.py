@@ -3,7 +3,7 @@
 Module: Runs bot client
 """
 
-import core.bot as bot
+import bot
 import os
 
 def bot_client():
